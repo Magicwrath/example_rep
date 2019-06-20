@@ -94,3 +94,5 @@ unsigned char usartGetString(char *s)
 	s[len] = 0;						//terminacija stringa
 	return len;						//vraca broj ocitanih karaktera
 }
+
+//Ovde ja vezbam koriscenje Git-a !
