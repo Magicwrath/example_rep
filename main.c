@@ -8,7 +8,7 @@ int main(void) {
   usartInit(9600);
 
   unsigned char keyPressed = 0x00;
-  unsigned char key = 0x00;
+  char key = 0x00;
 
   while(1) {
     key = keypadScan();
